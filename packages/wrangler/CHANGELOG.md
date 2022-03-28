@@ -1,5 +1,13 @@
 # wrangler
 
+## 0.0.25
+
+### Patch Changes
+
+- [#723](https://github.com/cloudflare/wrangler2/pull/723) [`7942936`](https://github.com/cloudflare/wrangler2/commit/79429367f451d53a74413fd942053c3f732fe998) Thanks [@threepointone](https://github.com/threepointone)! - fix: spread tail messages when logging
+
+  Logged messages (via console, etc) would previously be logged as an array of values. This spreads it when logging to match what is expected.
+
 ## 0.0.24
 
 ### Patch Changes
